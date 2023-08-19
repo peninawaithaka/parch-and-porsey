@@ -1,3 +1,7 @@
-Udacity SQL Course # parch-and-porsey
-ERD(Entity Relationships Diagram)
+Udacity SQL Course 
+
+# parch-and-porsey - a company that sells paper
+
+
+
 
