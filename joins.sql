@@ -49,5 +49,11 @@ join `udacity-learn-396004.parch_and_porsey.orders` o
 on a.id = o.account_id
 where w.occurred_at between "2015-01-01" and "2016-01-01"
 
-
-
+--Provide a table for all web_events associated with account name of Walmart. There should be three columns. 
+--Be sure to include the primary_poc, time of the event, 
+--and the channel for each event. Additionally, you might choose to add a fourth column to assure only Walmart events were chosen.
+select a.primary_poc, w.channel, w.occurred_at, a.name
+from accounts a
+join web_events w
+on a.id = w.account_id
+where a.name = 'Walmart'
