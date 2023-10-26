@@ -6,3 +6,8 @@ Query the Name of any student in STUDENTS who scored higher than  Marks. Order y
 https://www.hackerrank.com/challenges/name-of-employees/problem?isFullScreen=true
 
 Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
+
+
+https://www.hackerrank.com/challenges/average-population-of-each-continent/problem?isFullScreen=true
+
+Given the CITY and COUNTRY tables, query the names of all the continents (COUNTRY.Continent) and their respective average city populations (CITY.Population) rounded down to the nearest integer.
