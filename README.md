@@ -1,7 +1,8 @@
-Udacity SQL Course 
+### SQL Practise
 
-# parch-and-porsey - a company that sells paper
+-- The sql code snippets have been written to query various datasets from tools such as: snowflake and bigquery
 
+-- Check out the Hacker Rank code snippets.
 
 
 
