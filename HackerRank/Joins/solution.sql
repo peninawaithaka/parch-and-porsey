@@ -2,16 +2,14 @@ select
     sum(CITY.POPULATION)
 from 
     CITY
-inner join COUNTRY
-on CITY.CountryCode = COUNTRY.Code and COUNTRY.CONTINENT = 'Asia';
+inner join COUNTRY on CITY.CountryCode = COUNTRY.Code and COUNTRY.CONTINENT = 'Asia';
 
 
 select 
     CITY.NAME
 from 
     CITY
-inner join COUNTRY
-on CITY.CountryCode = COUNTRY.Code
+inner join COUNTRY on CITY.CountryCode = COUNTRY.Code
 where COUNTRY.CONTINENT = 'Africa'
 
 
@@ -21,8 +19,7 @@ select
     COUNTRY.Continent, floor(avg(CITY.Population))
 from 
     CITY
-inner join COUNTRY
-on CITY.CountryCode = COUNTRY.Code
+inner join COUNTRY on CITY.CountryCode = COUNTRY.Code
 group by COUNTRY.Continent
 
 
